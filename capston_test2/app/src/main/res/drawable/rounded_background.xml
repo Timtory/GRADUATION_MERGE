@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 메인 페이지 레이아웃 영역 모양-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#F2F2F2"
+        android:endColor="#F2F2F2"
+        android:angle="90"
+    />
+    <!-- 시작 색상 -->
+    <!-- 끝 색상 -->
+    <!-- 그라디언트 방향 (수평) -->
+
+    <corners
+        android:radius="20dp"
+    /><!-- 곡선 모서리의 반지름 -->
+</shape>

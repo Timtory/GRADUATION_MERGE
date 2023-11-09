@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SSD\n(신한대학교)</string>
+    <string name="post_content">게시글 내용을 입력하세요</string>
+    <string name="post_title">제목을 입력하세요</string>
+    <string name="author_post">학번/이름</string>
+    <string name="submit_post">게시</string>
+</resources>
