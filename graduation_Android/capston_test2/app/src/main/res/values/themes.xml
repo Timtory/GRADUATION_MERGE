@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Capston_test2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/shinhan_blue2</item>
+        <item name="colorPrimaryVariant">@color/shinhan_blue2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="m">?attr/colorOnPrimary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <!-- Add this line to remove the shadow of FloatingActionButton -->
+        <item name="floatingActionButtonStyle">@style/MyFloatingActionButtonStyle</item>
+    </style>
+
+    <style name="Theme.Capston_test2" parent="Base.Theme.Capston_test2" />
+
+    <!-- Add this new style -->
+    <style name="MyFloatingActionButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="elevation">0dp</item>
+        <item name="pressedTranslationZ">0dp</item>
+        <item name="hoveredFocusedTranslationZ">0dp</item>
+
+    </style>
+
+    <style name="CustomMaterialButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@android:color/white</item> <!-- 테두리색 흰색으로 설정 -->
+        <item name="android:textColor">@android:color/white</item> <!-- 글씨 색은 흰색 -->
+        <item name="backgroundTint">@color/shinhan_blue3</item> <!-- 버튼 색은 #1a7bd0 -->
+        <item name="shapeAppearanceOverlay">@style/RoundedShapeAppearance</item> <!-- 버튼 모서리 둥글게 -->
+        <item name="strokeWidth">1dp</item> <!-- 테두리 없애기 -->
+        <item name="cornerRadius">12dp</item> <!-- 모서리 둥글기 정도를 조절하려면 이 값을 변경하세요 -->
+    </style>
+
+    <style name="RoundedShapeAppearance" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item> <!-- 모서리 둥글기 정도를 조절하려면 이 값을 변경하세요 -->
+    </style>
+
+
+</resources>

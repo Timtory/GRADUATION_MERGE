@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!--textCapSentences|textMultiLine 제목 입력에 최적화된 입력 유형 -->
+    <!-- 제목을 입력하는 텍스트 필드 -->
+
+
+    <!--textMultiLine|textLongMessage 내용 입력에 최적화된 입력 유형 -->
+    <!--android:lines="5"  기본 라인 수 -->
+    <!--android:scrollbars="vertical"  수직 스크롤 바 추가 -->
+    <!-- 내용을 입력하는 텍스트 필드 -->
+    <EditText
+        android:id="@+id/editTextAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/author_post" />
+
+    <EditText
+        android:id="@+id/editTextPostContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top|start"
+        android:hint="@string/post_content"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine|textLongMessage"
+        android:lines="5"
+        android:maxLength="5000"
+        android:scrollbars="vertical" />
+
+    <!-- 새로운 수평 LinearLayout 추가 -->
+
+    <!-- 게시 버튼 -->
+    <Button
+        android:id="@+id/buttonSubmitPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/submit_post" />
+
+</LinearLayout>

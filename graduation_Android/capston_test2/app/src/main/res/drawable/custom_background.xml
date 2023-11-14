@@ -1,0 +1,9 @@
+<!-- custom_background.xml (리스트 뷰 칸 마다 디자인 부분)-->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="16dp"
+    android:insetRight="16dp">
+    <shape>
+        <solid android:color="@android:color/darker_gray" />
+        <size android:height="2dp" />
+    </shape>
+</inset>

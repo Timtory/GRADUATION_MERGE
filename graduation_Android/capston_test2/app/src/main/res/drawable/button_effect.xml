@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <!--추천하기 버튼 누를 때 효과 주는 코드-->
+            <solid android:color="#0E5F91" /> <!-- 눌렀을 때의 배경색 -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#1A7BD0" /> <!-- 기본 배경색 -->
+        </shape>
+    </item>
+</selector>
