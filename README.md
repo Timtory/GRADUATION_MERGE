@@ -20,12 +20,12 @@
   <tr>
     <td>여의동</td>
     <td>웹 프론트앤드</td>
-    <td><a href="https://github.com/계정2">https://github.com/계정2</a></td>
+    <td><a href="https://github.com/y2d607">https://github.com/y2d607</a></td>
   </tr>
   <tr>
     <td>김진겸</td>
     <td>모바일(안드로이드)</td>
-    <td><a href="https://github.com/계정2">https://github.com/계정2</a></td>
+    <td><a href="https://github.com/realgyum">https://github.com/realgyum</a></td>
   </tr>
   <tr>
     <td>김현중</td>
