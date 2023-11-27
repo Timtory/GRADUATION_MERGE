@@ -30,7 +30,7 @@
   <tr>
     <td>김현중</td>
     <td>웹</td>
-    <td><a href="https://github.com/계정2">https://github.com/계정2</a></td>
+    <td><a href="https://github.com/pnzsu">https://github.com/pnzsu</a></td>
   </tr>
   <tr>
     <td>김유진</td>
