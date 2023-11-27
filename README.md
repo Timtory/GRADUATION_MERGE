@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>여의동</td>
-    <td>웹 프론트앤드</td>
+    <td>웹,모바일(안드로이드)</td>
     <td><a href="https://github.com/y2d607">https://github.com/y2d607</a></td>
   </tr>
   <tr>
@@ -34,7 +34,7 @@
   </tr>
   <tr>
     <td>김유진</td>
-    <td>모바일(안드로이드)</td>
+    <td>웹 프론트앤드</td>
     <td><a href="https://github.com/계정2">https://github.com/계정2</a></td>
   </tr>
 </table>
