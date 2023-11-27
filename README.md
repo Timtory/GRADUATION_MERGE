@@ -15,7 +15,7 @@
   <tr>
     <td>노승찬</td>
     <td>웹, 팀장</td>
-    <td><a href="https://github.com/계정2">https://github.com/Timtory</a></td>
+    <td><a href="https://github.com/Timtory">https://github.com/Timtory</a></td>
   </tr>
   <tr>
     <td>여의동</td>
