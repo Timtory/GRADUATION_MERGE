@@ -36,7 +36,7 @@
   <tr>
     <td>김유진</td>
     <td>웹 프론트앤드</td>
-    <td><a href="https://github.com/계정2">https://github.com/계정2</a></td>
+    <td><a href="https://github.com/IloveNSC">https://github.com/IloveNSC</a></td>
   </tr>
 </table>
 
